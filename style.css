@@ -78,6 +78,20 @@ body {
     width: 700px;
 }
 
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px;
+    color: #E5E7EB;
+}
+
+.cta-text-container {
+    display: flex;
+    background-color: #3882F6;
+    font-size: 18px;
+    padding: 25px 75px;
+}
 a {
     text-decoration: none;
     color: #E5E7EB;
