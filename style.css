@@ -46,6 +46,12 @@ body {
     height: auto;
     width: 450px;
 }
+
+#info-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .info-container {
     display: flex;
     margin-bottom: 65px;
