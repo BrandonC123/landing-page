@@ -67,7 +67,7 @@ body {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: normal;
     color: #1F2937;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,14 @@ body {
 }
 
 .quote-text {
-    width: 700px;
+    width: 800px;
+}
+
+#credit {
+    text-align: end;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .call-to-action-container {
@@ -90,10 +97,34 @@ body {
     flex: 1;
     border-radius: 10px;
     justify-content: space-around;
+    align-items: center;
     background-color: #3882F6;
     font-size: 18px;
     padding: 25px 75px;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -107,16 +138,4 @@ ul {
     gap: 10px;
     font-weight: normal;
     font-size: 18px;
-}
-
-.sign-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: none;
-    padding: 10px 20px;
-    border-radius: 8px;
-    background-color: #3882F6;
-    color: white;
-    font-weight: bold;
 }
