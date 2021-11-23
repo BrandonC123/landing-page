@@ -22,17 +22,19 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    padding: 40px 100px;
+    padding: 60px 100px;
     margin-bottom: 30px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: flex-start;
     gap: 15px;
 }
+
 .hero-subtext {
     font-size: 18px;
     font-weight: normal;
@@ -40,6 +42,10 @@ body {
     width: 500px;
 }
 
+#hero-image {
+    height: auto;
+    width: 450px;
+}
 .info-container {
     display: flex;
     margin-bottom: 65px;
@@ -53,6 +59,7 @@ body {
     flex-direction: column;
     width: 150px;
 }
+
 .image {
     display: flex;
     border-radius: 25px;
