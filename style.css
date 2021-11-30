@@ -57,6 +57,7 @@ body {
     margin-bottom: 65px;
     gap: 15px;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -77,6 +78,7 @@ body {
 
 .card-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 35px;
 }
 
